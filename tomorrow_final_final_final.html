@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="tomorrow.css">
+    <script>
+        const today = new Date()
+        const tomorrow = new Date(today)
+        tomorrow.setDate(tomorrow.getDate() + 1)
+        document.getElementById("tomorrow").innerHTML = tomorrow;
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="title">wai tum poong nee na</div>
+        <div id="main">Hover for Details.</div>
+        <div id="show">ไว้ทำพรุ่งนี้นะ</div>
+        <div id="hide">Coming 04-July-2022</div>
+    </div>
+</body>
+
+</html>
